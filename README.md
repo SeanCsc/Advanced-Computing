@@ -2,15 +2,15 @@
 Linux, Parallel computing with FLUX and Spark
 
 # Linux 
-####Command
+#### Command
 cp source destination
 chmod -change the permission
 
 
-####Shell programming
+#### Shell programming
 
 
-#Flux
+# Flux
 Flux is a parallel computing system. 
 
 #### How to write PBS file to submit the job
@@ -21,7 +21,6 @@ Changing parameters about the resources and some other information and run the p
 qsub name.psb  #submit the file
 qstat -u uniquename/ job ID #check the status of job submitted
 qdel
-
 ```
 
 #### How to know more about the account group that you can use
@@ -29,7 +28,6 @@ qdel
 mdiag -u #show the account that can use
 mdiag -a account #show the detail information of an account
 showq -w acct=account name #show the job running on a certain account
-
 ```
 
 #### How to run the code
