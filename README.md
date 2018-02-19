@@ -14,17 +14,17 @@ chmod -change the permission
 # Flux
 Flux is a parallel computing system. 
 
-#### How to write PBS file to submit the job
+#### How to write PBS file to submit the job 
 Changing parameters about the resources and some other information and run the program
 
-#### How to submit, check the job
+#### How to submit, check the job (job level)
 ```
 qsub name.psb  #submit the file
 qstat -u uniquename/ job ID #check the status of job submitted
 qdel
 ```
 
-#### How to know more about the account group that you can use
+#### How to know more about the account group that you can use (user level/ account level)
 ```
 mdiag -u #show the account that can use
 mdiag -a account #show the detail information of an account
