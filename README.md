@@ -3,9 +3,10 @@ Linux, Parallel computing with FLUX and Spark
 
 # Linux 
 #### Command
+```
 cp source destination
 chmod -change the permission
-
+```
 
 #### Shell programming
 
