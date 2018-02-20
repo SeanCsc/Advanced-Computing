@@ -6,6 +6,10 @@ Linux, Parallel computing with FLUX and Spark
 ```
 cp source destination
 chmod -change the permission
+du -disk usage
+grep -搜索
+cat -catenate 查看文件
+
 ```
 
 #### Shell programming
